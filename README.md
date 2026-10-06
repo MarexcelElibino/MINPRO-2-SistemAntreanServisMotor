@@ -21,9 +21,17 @@ Setiap beres milih menu, kita bisa balik lagi ke pilihan sebelumnya atau logout 
 
 
 Dokumentasi Program & Output, disertai dengan penjelasannya:
-
 Ini bagian manggil library luar dan bawaan Python. Ada os buat bersihin terminal, time buat ngasih jeda, sama PrettyTable buat bikin tabel biar rapi.
 <img width="1006" height="121" alt="Screenshot 2026-10-06 155422" src="https://github.com/user-attachments/assets/2e98b8c9-b000-4e18-b7c7-928b57ed525f" />
+
+
+
+
+
+
+
+
+
 
 
 
@@ -32,8 +40,19 @@ Ini Nested Dictionary (dictionary di dalam dictionary) yang diajarin di materi. 
 
 
 
+
+
+
+
+
 Dictionary biasa buat nyimpen data username dan password buat sistem login (admin dan user).
 <img width="1051" height="123" alt="Screenshot 2026-10-06 164437" src="https://github.com/user-attachments/assets/5c0eb562-7b93-456b-a92a-62bd0f999f28" />
+
+
+
+
+
+
 
 
 
@@ -45,8 +64,20 @@ Fungsi input_biaya() ini bertugas untuk meminta input biaya servis dari pengguna
 
 
 
+
+
+
+
+
+
+
+
 Fungsi ini bertugas untuk menampilkan daftar antrean dalam bentuk tabel menggunakan library PrettyTable. Di dalamnya terdapat pengecekan peran (role): jika yang membuka adalah admin, kolom tabel yang ditampilkan lengkap (No Antrean, Nama, Merek, Plat, dan Biaya); sedangkan jika yang membuka adalah user, kolom plat nomor dan biaya disembunyikan sehingga hanya menampilkan No Antrean, Nama Pelanggan, dan Merek Motor saja.
 <img width="1175" height="735" alt="Screenshot 2026-10-06 165058" src="https://github.com/user-attachments/assets/21454320-f684-4e60-8251-b57b2ab039cd" />
+
+
+
+
 
 
 
@@ -56,9 +87,19 @@ Fungsi ini digunakan untuk menampilkan menu khusus User secara berulang mengguna
 
 
 
+
+
+
+
+
 Fungsi ini adalah gerbang utama jalannya program yang bertugas untuk menangani sistem login.
 Di dalamnya, pengguna diminta memasukkan username dan password. Jika pengguna mengetik exit pada username, program akan menampilkan ucapan terima kasih lalu berhenti menggunakan perintah break.   Program mengecek kecocokan data menggunakan percabangan: jika username terdaftar di dictionary akun dan password-nya benar, program akan menampilkan pesan sukses, menunggu 1 detik, lalu mengecek rolenya.   Jika username adalah "admin", program akan membuka menu_admin(); jika "user", program akan membuka menu_user(). Sebaliknya, jika salah, program akan mencetak pesan "Username atau Password salah!".   Baris paling bawah (login()) berfungsi untuk memanggil dan menjalankan seluruh fungsi login tersebut saat pertama kali program di-run.  
 <img width="1184" height="682" alt="Screenshot 2026-10-06 165521" src="https://github.com/user-attachments/assets/dd943086-f9bc-47f0-b530-a0b622043e52" />
+
+
+
+
+
 
 
 
@@ -70,8 +111,21 @@ username: admin pw:123
 
 
 
+
+
+
+
+
+
+
 <img width="1920" height="1080" alt="Screenshot 2026-10-06 160108" src="https://github.com/user-attachments/assets/f43e16b1-d616-481b-9d03-e182403e02b8" />
 disini kita udah masuk sistem dan terdapat 5 pilihan (lihat antrean,tambah antrean, ubah biaya, hapus antrean, log out)
+
+
+
+
+
+
 
 
 
@@ -83,8 +137,14 @@ saya pilih lihat antrean di sistem terdapat 2 motor orang yang sedang di sistem 
 
 
 
+
+
 <img width="1920" height="1080" alt="Screenshot 2026-10-06 160250" src="https://github.com/user-attachments/assets/d3a8aec9-7bde-4622-b2a3-7c80433b915c" />
 saya lanjut memilih tambah antrean, disini saya menambah 1 motor yang akan di perbaiki (A-03,Excell,Honda Beat,200000) lalu saya enter akan muncul tambah antrean berhasil!
+
+
+
+
 
 
 
@@ -96,8 +156,19 @@ ke menu ubah biaya disini saya bisa ubah biaya motor apas (Honda Vario) saya uba
 
 
 
+
+
+
+
+
+
 <img width="1920" height="1080" alt="Screenshot 2026-10-06 160709" src="https://github.com/user-attachments/assets/6c5faaab-ecbd-43ea-b91c-91d2e3dd7f62" />
 disini saya memilih ke menu hapus antrean. saya mau hapus motor Yamaha Nmax (Azzam) karena service sudah selesai. setelah mengirim no A-02 lalu tekan enter akan muncul Hapus Antrean Berhasil.
+
+
+
+
+
 
 
 
@@ -108,9 +179,21 @@ di menu ke 5 ada log out, disini saya akan memilih logout lalu akan ke arah awal
 
 
 
+
+
+
+
+
+
 <img width="1920" height="1080" alt="Screenshot 2026-10-06 160814" src="https://github.com/user-attachments/assets/143e5f8b-a453-4133-b97d-faea2951b3e0" />
 disini saya arah login username user
 username: user pw:321
+
+
+
+
+
+
 
 
 
@@ -118,8 +201,19 @@ username: user pw:321
 disini kita sebagai user hanya bisa mengakses lihat antrean dan logout, lalu saya memilih lihat antrean service motor
 
 
+
+
+
+
+
 <img width="1920" height="1080" alt="Screenshot 2026-10-06 172817" src="https://github.com/user-attachments/assets/92ad0139-b4d4-459f-bc40-5157cb5d189f" />
 disini bisa di liat terdapat 2 motor orang service dan dibawah ada arah tekan enter untuk kembali ke menu awal
+
+
+
+
+
+
 
 
 <img width="1300" height="166" alt="Screenshot 2026-10-06 173036" src="https://github.com/user-attachments/assets/8cfe205f-7ed0-4b65-a326-647a4c93bfc6" />
